@@ -94,11 +94,11 @@
 	     (cons item (tweak-text rest caps lit)))
 	    ((member item '(#\! #\? #\.))
 	     (cons item (tweak-text rest t lit)))
-	    ((eq item #\")
+	    ((eql item #\")
 	     (tweak-text rest caps (not lit)))
 	    (lit 
 	     (cons item (tweak-text rest nil lit)))
-	    ((or caps lit)
+	    (caps
 	     (cons (char-upcase item) (tweak-text rest nil lit)))
 	    (t (cons (char-downcase item) (tweak-text rest nil nil)))))))
 
