@@ -4,5 +4,6 @@
   :serial t
   :components ((:file "package")
 	       (:file "graph-lib")
-               (:file "wizard")))
+               (:file "wizard")
+	       (:file "wumpus")))
 
