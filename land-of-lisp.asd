@@ -5,5 +5,6 @@
   :components ((:file "package")
 	       (:file "graph-lib")
                (:file "wizard")
-	       (:file "wumpus")))
+	       (:file "wumpus")
+	       (:file "orc-battle")))
 
