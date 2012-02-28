@@ -47,7 +47,7 @@
   (princ *player-health*)
   (princ ", an agility of ")
   (princ *player-agility*)
-  (princ " and a streangth of ")
+  (princ " and a strength of ")
   (princ *player-strength*))
 
 (defun player-attack ()
