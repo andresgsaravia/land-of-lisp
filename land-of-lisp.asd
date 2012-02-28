@@ -6,5 +6,6 @@
 	       (:file "graph-lib")
                (:file "wizard")
 	       (:file "wumpus")
-	       (:file "orc-battle")))
+	       (:file "orc-battle")
+	       (:file "evolution")))
 
