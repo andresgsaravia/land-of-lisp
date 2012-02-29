@@ -7,7 +7,12 @@
   (:use :cl))
 
 (defpackage :land-of-lisp.graphviz
-  (:use :cl))
+  (:use :cl)
+  (:export :graph->dot
+	   :dot->png
+	   :graph->png
+	   :ugraph->dot
+	   :ugraph->png))
 
 (defpackage :land-of-lisp.wumpus
   (:use :cl
@@ -19,4 +24,9 @@
 (defpackage :land-of-lisp.evolution
   (:use :cl))
 
-(defpackage :land-of-lisp.robots)
+(defpackage :land-of-lisp.robots
+  (:use :cl))
+
+(defpackage :land-of-lisp.web-server
+  (:use :cl
+	:usocket))

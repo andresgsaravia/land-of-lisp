@@ -45,6 +45,10 @@
   (edges->dot edges)
   (princ "}"))
 
+#+sbcl
+(defun sbcl-shell (x)
+  (sb-ext:run-program "/bin/sh" (list "-c" x) :output t))
+
 (defun dot->png (fname thunk)
   (with-open-file (*standard-output*
 		   fname
@@ -52,7 +56,8 @@
 		   :if-exists :supersede)
     (funcall thunk))
   #+clisp (ext:shell (concatenate 'string "dot -Tpng -O " fname))
-  #-clisp (error "DOT->PNG not implemented"))
+  #+sbcl (sbcl-shell (concatenate 'string "dot -Tpng -O " fname))
+  #-(or clisp sbcl) (error "DOT->PNG not implemented"))
 
 (defun graph->png (fname nodes edges)
   (dot->png fname
