@@ -10,10 +10,13 @@
   (:use :cl))
 
 (defpackage :land-of-lisp.wumpus
-  (:use :cl))
+  (:use :cl
+	:land-of-lisp.graphviz))
 
 (defpackage :land-of-lisp.orc-battle
   (:use :cl))
 
 (defpackage :land-of-lisp.evolution
   (:use :cl))
+
+(defpackage :land-of-lisp.robots)
