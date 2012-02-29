@@ -29,4 +29,5 @@
 
 (defpackage :land-of-lisp.web-server
   (:use :cl
-	:usocket))
+	:usocket)
+  (:export :serve))
