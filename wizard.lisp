@@ -1,6 +1,6 @@
 ;;; Wizard game
 
-(in-package :land-of-lisp)
+(in-package :land-of-lisp.wizard)
 
 (defparameter *nodes* '((living-room 
 			 (You are in the living room. A wizard is snoring on the couch.))

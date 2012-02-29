@@ -1,6 +1,6 @@
 ;;;; Orc Battle
 
-(in-package :land-of-lisp)
+(in-package :land-of-lisp.orc-battle)
 
 (defparameter *player-health* nil)
 (defparameter *player-agility* nil)

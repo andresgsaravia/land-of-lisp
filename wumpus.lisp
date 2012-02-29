@@ -2,7 +2,7 @@
 ;;;; The most violent programming example ever put into a textbook
 
 
-(in-package :land-of-lisp)
+(in-package :land-of-lisp.wumpus)
 
 (defparameter *congestion-city-nodes* nil)
 (defparameter *congestion-city-edges* nil)

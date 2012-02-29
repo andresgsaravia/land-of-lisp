@@ -1,6 +1,6 @@
 ;;;; Evolution
 
-(in-package :land-of-lisp)
+(in-package :land-of-lisp.evolution)
 
 (defparameter *width* 100)
 (defparameter *height* 30)

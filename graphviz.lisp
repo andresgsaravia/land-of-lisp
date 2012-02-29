@@ -1,6 +1,6 @@
 ;;;; Library to use graphviz
 
-(in-package :land-of-lisp)
+(in-package :land-of-lisp.graphviz)
 
 (defparameter *max-label-length* 30)
 
