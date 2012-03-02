@@ -9,5 +9,6 @@
 	       (:file "wumpus")
 	       (:file "orc-battle")
 	       (:file "evolution")
-	       (:file "web-server")))
+	       (:file "web-server")
+	       (:file "dice-of-doom")))
 

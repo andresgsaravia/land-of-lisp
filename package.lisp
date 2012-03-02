@@ -31,3 +31,6 @@
   (:use :cl
 	:usocket)
   (:export :serve))
+
+(defpackage :land-of-lisp.dice-of-doom
+  (:use :cl))
