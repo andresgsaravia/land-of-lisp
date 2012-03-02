@@ -10,5 +10,6 @@
 	       (:file "orc-battle")
 	       (:file "evolution")
 	       (:file "web-server")
+	       (:file "svg")
 	       (:file "dice-of-doom")))
 

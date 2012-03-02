@@ -34,3 +34,11 @@
 
 (defpackage :land-of-lisp.dice-of-doom
   (:use :cl))
+
+(defpackage :land-of-lisp.svg
+  (:use :cl)
+  (:export :svg
+	   :brightness
+	   :svg-style
+	   :circle
+	   :polygon))
